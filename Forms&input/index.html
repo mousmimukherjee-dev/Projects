@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Forms</title>
+</head>
+<body>
+  <header class="header"><h1>This is about forms</h1></header>
+  <main class="main">
+    <div class="introduction">
+      <legend>Your Name</legend>
+      <h3>Lets learn about forms</h3>
+      <p>Tell us something about yourself!</p>
+    </div>
+    <form action="mailto:mousmichatterjee6@gmail.com" method="GET" class="user-info">
+      <fieldset class="info">
+        <legend>Your Name:</legend>
+      <div class="user-input">
+      <label for="frist-name">Name:
+      <input class='reuired' type="text" name="name" id="frist-name" placeholder="Enter your name here!" maxlength="20" required>
+      </label>
+      
+      </div>
+      <div class="user-input"></div>
+      <label for="last-name">Last Name:</label>
+      <input class='reuired' type="text" name="name" id="last-name" placeholder="Enter your last-name here!" maxlength="20" required>
+      </div>
+      
+      </fieldset>
+      <fieldset class="info">
+        <legend>Feedback!</legend>
+        <label for="feedback">
+          <input class= 'textarea' type="textarea" name="feedback" id="feedback" placeholder="Please enter your feedback here!">
+        </label>
+      </fieldset>
+
+      <div class="user-input">
+        <label for="confirm">Confirm
+          <input type="checkbox" name="confirm" id="confirm" value="confirmed">
+        </label>
+      </div>
+
+      <div class="user-input">
+        <label for="Enter your preferences">Enter your preferences:</label>
+        <label for="preference1">Frontend
+          <input type="radio" name="class" value="Frontend">
+        </label>
+        <label for="preference2">Backend
+          <input type="radio" name="class" value="Backend">
+        </label>
+      </div>
+
+      <fieldset class="info">
+        <legend>Choose Country</legend>
+
+        <label for="country">Choose your country</label>
+        <select name="country" id="country">
+          <option value="Sweden">Sweden</option>
+          <option value="Sweden">Denmark</option>
+          <option value="Sweden">Norway</option>
+          <option value="">India</option>
+        </select>
+      </fieldset>
+
+      <div>
+      <button class="submit">Submit</button>
+      </div>
+
+    </form>
+    
+  </main>
+  <footer class="footer">&copy;Mousumi2025</footer>
+  
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-bg{
+
+  background-color: rgb(70, 68, 68);
+  width: 80%;
+  min-height: 100vh;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin: 2rem;
+  
+}
+
+.orange-light{
+  
+  width:25vw;
+  height: 25vw;
+  margin: 1rem;
+  border-radius: 50%;
+  background-color: rgba(255, 166, 0, 0.81);
+}
+
+.blue-light{
+  
+  width:25vw;
+  height: 25vw;
+  margin: 1rem;
+  border-radius: 50%;
+  background-color: rgba(0, 26, 255, 0.81);
+}
+.green-light{
+  
+  width:25vw;
+  height: 25vw;
+  margin: 1rem;
+  border-radius: 50%;
+  background-color: rgb(7, 174, 62);
+}
